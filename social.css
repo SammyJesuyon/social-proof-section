@@ -1,0 +1,175 @@
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    overflow-x: hidden;
+    background: url(images/Path\ Copy\ 5.png) left top no-repeat, url(images/Path\ \(1\).png) bottom right no-repeat;
+}
+
+.header {
+    color: var(--very-dark-magenta);
+    width: 400px;
+    margin-top: 165px;
+    margin-left: 152px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 48px;
+}
+
+.subheader {
+    color: var(--dark-grayish-magenta);
+    width: 450px;
+    margin-left: 152px;
+    margin-top: -15px;
+    line-height: 23px;
+}
+
+.stars1 {
+    margin-left: 730px;
+    margin-top: -208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-reviews {
+    margin-left: 880px;
+    margin-top: -27px;
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.stars2 {
+    margin-left: 780px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-report {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 930px;
+    margin-top: -26px;
+}
+
+.stars3 {
+    margin-left: 830px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-besttech {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 978px;
+    margin-top: -26px;
+}
+
+.review-card-colton {
+    width: 342px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    margin-top:105px;
+    margin-left: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card-irene {
+    width: 338px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    margin-left: 525px;
+    margin-top: -210px;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card-anne {
+    width: 338px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    margin-left: 893px;
+    margin-top: -215px;
+    transition: all 0.5s ease-in-out;
+}
+
+.avatar-colton {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 34px;
+    margin-top: 38px;
+}
+
+.avatar-irene {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 37px;
+}
+
+.avatar-anne {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 40px;
+}
+
+.user-info {
+    margin-left: 93px;
+    margin-top: -53px;
+}
+
+.user-name {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 13px;
+}
+
+.user-status {
+    font-weight: 100;
+    color: var(--soft-pink);
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+.user-feedback {
+    width: 289px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.feedback-text {
+    color: var(--white);
+    font-weight: 500;
+    line-height: 23px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
